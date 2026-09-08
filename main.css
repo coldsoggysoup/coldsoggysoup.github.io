@@ -1,0 +1,66 @@
+/*
+Color 1: #0B2027
+Color 2: #BF8800
+Color 3: #C297B8
+Color 4: #FFEFD3
+Color 5: #667761
+*/
+
+body {
+	background-color: #FFEFD3;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#Bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	font-size: 24px;
+	background-color: #BF8800;
+	display: flex;
+}
+
+#Bar_item p {
+	margin: 0;
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#Bar_item a {
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#Bar_item a#active {
+	background-color: #C297B8;
+}
+
+#Bar_item a#active:hover {
+	background-color: #667761;
+}
+
+#Bar_item a:hover {
+  background-color: #667761;
+  /* color: #0B2027; */
+}
+
+#ContentBox {
+	margin-top: 60px;
+	color: #0B2027;
+}
+
+a {
+	color: #0B2027;
+}
+
+a:hover {
+	color: white;
+}
